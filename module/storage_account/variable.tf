@@ -12,3 +12,15 @@ variable "resource_group_location" {
     type =string
     description = "location for resource group."
 }
+
+variable "account_tier" {
+  type = string
+  description = "value"
+  default = "Standard"
+}
+
+variable "account_replication_type" {
+  type = string
+  description = "value"
+  default = "GRS"
+}
