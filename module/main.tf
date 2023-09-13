@@ -14,7 +14,7 @@ module "key_vault" {
 
 ##### for storage module
 module "storage" {
-    source = "./storage"
+    source = "./storage_account"
 
     resource_group_name        = "rg-storageacc-resource"
     resource_group_location    = "east us"
