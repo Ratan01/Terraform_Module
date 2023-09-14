@@ -14,5 +14,5 @@ module "storage_account" {
   source = "./modules/storage_account"
   resource_group_name        = "rg-storageacc-resource"
   resource_group_location    = "east us"
-  storage_account_name       = "storage-rktgff"
+  azurerm_storage_account       = "storage-rktgff"
 }
