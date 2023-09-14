@@ -16,4 +16,4 @@ purge_protection_enabled = false
 
 account_tier = "standard"
 
-account_replication_type = "GRS"
+account_replication_type = "LRS"
