@@ -12,11 +12,11 @@ variable "resource_group_location" {
 variable "account_tier" {
   type = string
   description = "value"
-  default = "Standard"
+  #default = "Standard"
 }
 
 variable "account_replication_type" {
   type = string
   description = "value"
-  default = "GRS"
+  #default = "GRS"
 }
