@@ -1,6 +1,6 @@
 resource_group_name = "resoucerrkkg"
 
-resource_group_location = "east us"
+resource_group_location = "eastus"
 
 key_vault_name = "keyvaultgrkk"
 
