@@ -20,3 +20,5 @@ variable "account_replication_type" {
   description = "value"
   #default = "GRS"
 }
+
+variable "min_tls_version" {}

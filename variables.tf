@@ -8,3 +8,4 @@ variable "soft_delete_retention_days" {}
 variable "purge_protection_enabled" {}
 variable "account_tier" {}
 variable "account_replication_type" {}
+variable "min_tls_version" {}

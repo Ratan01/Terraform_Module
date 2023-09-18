@@ -8,3 +8,4 @@ enabled_for_disk_encryption = true
 purge_protection_enabled = false
 account_tier = "standard"
 account_replication_type = "LRS"
+min_tls_version = "TLS1_2"
