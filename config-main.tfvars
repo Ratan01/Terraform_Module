@@ -7,5 +7,5 @@ soft_delete_retention_days = 7
 enabled_for_disk_encryption = true
 purge_protection_enabled = false
 account_tier = "standard"
-account_replication_type = "LRS"
+account_replication_type = "GRS"
 min_tls_version = "TLS1_2"
