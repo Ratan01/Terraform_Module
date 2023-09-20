@@ -7,8 +7,6 @@ module "key_vault" {
   #key_vault_sku_pricing_tier = "standard"
 }
 
-
-
 ##### for storage module
 module "storage_account" {
   source = "./modules/storage_account"
