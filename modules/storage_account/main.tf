@@ -3,7 +3,7 @@ resource "azurerm_storage_account" "st" {
   resource_group_name      = var.resource_group_name
   location                 = var.resource_group_location
   account_tier             = var.account_tier
-  account_replication_type = local.account_replication_type
+  account_replication_type = var.account_replication_type
   min_tls_version          = var.min_tls_version
 
   tags = {
