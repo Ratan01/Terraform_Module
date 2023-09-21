@@ -7,6 +7,6 @@ resource "azurerm_storage_account" "st" {
   min_tls_version          = var.min_tls_version
 
   tags = {
-    environment = "staging"
+    environment = "production"
   }
 }
